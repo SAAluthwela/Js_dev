@@ -14,3 +14,8 @@ setTimeout(message, 3000);
 setTimeout(function () {
   console.log("This msg will show after 3000 milli seconds");
 }, 3000);
+
+//Arrow functions
+setTimeout(() => {
+  console.log("This message is shown after 3 seconds");
+}, 3000);
