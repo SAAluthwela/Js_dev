@@ -13,7 +13,7 @@ function pow(x, n) {
   return result;
 }
 
-alert(pow(2, 3)); // 8
+console.log(pow(2, 3)); // 8
 
 //recursive method
 
@@ -25,4 +25,10 @@ function pow(x, n) {
   }
 }
 
-alert(pow(2, 3)); // 8
+console.log(pow(2, 3)); // 8
+
+//shorter version
+
+function pow(x, n) {
+  return n == 1 ? x : x * pow(x, n - 1);
+}
