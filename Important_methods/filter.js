@@ -1,6 +1,6 @@
 // <---------- basic filter() method ---------------->
 
-const words = [
+const words_ = [
   "spray",
   "limit",
   "elite",
@@ -9,7 +9,7 @@ const words = [
   "present",
 ];
 
-const result = words.filter((word) => word.length > 6);
+const result = words_.filter((word) => word.length > 6);
 
 console.log(result);
 // expected output: Array ["exuberant", "destruction", "present"]
